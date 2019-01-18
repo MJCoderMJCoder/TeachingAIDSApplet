@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>The Hello, World Applet</title>
+</head>
+<body>
+	<hr />
+	<!--applet标签的属性指定了要运行的Applet类。
+	codebase属性指定文档的路径；Viewer或者浏览器在codebase指定的位置寻找编译过的Java代码。
+	如果Applet所在一个包中而不是默认包，那么所在的包必须在code属性里指定，-->
+	<applet code="HelloWorldApplet.class" width="320" height="120">
+		<!-- Applet参数的值需要在<param>标签里添加，该标签位于applet之间。浏览器忽略了applet标签之间的文本和其他标签。 -->
+		If your browser was Java-enabled, a "Hello, World" message would
+		appear here.
+	</applet>
+	<hr />
+</body>
+</html>
